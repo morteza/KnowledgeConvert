@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Attack_Taxonomy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Taxonomy_Name="CAPEC" xsi:noNamespaceSchemaLocation="http://capec.mitre.org/data/xsd/attack_taxonomy_schema_v1.1.1.xsd">
+	<Taxonomy_Node Type="Attack_Category" Node_ID="1" CAPEC_ID="-1" Name="Abuse of Functionality">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="113" Pattern_Abstraction="Meta" Node_ID="2" Type="Attack_Pattern" Name="API Abuse/Misuse">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="121" Pattern_Abstraction="Standard" Node_ID="3" Type="Attack_Pattern" Name="Locate and Exploit Test APIs">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>2</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="36" Pattern_Abstraction="Detailed" Node_ID="4" Type="Attack_Pattern" Name="Using Unpublished Web Service APIs">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>2</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="160" Pattern_Abstraction="Detailed" Node_ID="5" Type="Attack_Pattern" Name="Programming to included script-based APIs">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>2</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="179" Pattern_Abstraction="Detailed" Node_ID="6" Type="Attack_Pattern" Name="Discovering, querying, and finally calling micro-services, such as w/ AJAX">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>2</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="7" Type="Attack_Pattern" Name="Leveraging web tools (e.g. Mozilla&apos;s GreaseMonkey, Firebug) to change application behavior">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>2</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="8" CAPEC_ID="-1" Name="Functionality Misuse">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="2" Pattern_Abstraction="Standard" Node_ID="9" Type="Attack_Pattern" Name="Inducing Account Lockout">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>8</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="50" Pattern_Abstraction="Standard" Node_ID="10" Type="Attack_Pattern" Name="Password Recovery Exploitation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>8</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="162" Pattern_Abstraction="Standard" Node_ID="11" Type="Attack_Pattern" Name="Manipulating hidden fields to change the normal flow of transactions (eShoplifting)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>8</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="87" Pattern_Abstraction="Standard" Node_ID="12" Type="Attack_Pattern" Name="Forceful Browsing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="143" Pattern_Abstraction="Standard" Node_ID="13" Type="Attack_Pattern" Name="Detect Unpublicized Web Pages">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>12</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="144" Pattern_Abstraction="Standard" Node_ID="14" Type="Attack_Pattern" Name="Detect Unpublicized Web Services">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>12</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="15" Type="Attack_Pattern" Name="Directory Traversal">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="95" Pattern_Abstraction="Detailed" Node_ID="16" Type="Attack_Pattern" Name="WSDL Scanning">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="48" Pattern_Abstraction="Detailed" Node_ID="17" Type="Attack_Pattern" Name="Passing Local Filenames to Functions That Expect a URL">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="54" Pattern_Abstraction="Standard" Node_ID="18" Type="Attack_Pattern" Name="Probing an Application by Targeting its Error Reporting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>176</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="19" Type="Attack_Pattern" Name="Fuzzing for garnering J2EE/.NET-based stack traces, for application mapping">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>18</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>184</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="20" Type="Attack_Pattern" Name="Fuzzing and observing application log data/errors for application mapping">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>18</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>184</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="133" Pattern_Abstraction="Standard" Node_ID="21" Type="Attack_Pattern" Name="Try All Common Application Switches and Options">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="141" Pattern_Abstraction="Standard" Node_ID="22" Type="Attack_Pattern" Name="Cache Poisoning">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="23" Type="Attack_Category" Name="Abuse of Communication Channels">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="12" Pattern_Abstraction="Standard" Node_ID="24" Type="Attack_Pattern" Name="Choosing a Message/Channel Identifier on a Public/Multicast Channel">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>23</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="25" Type="Attack_Pattern" Name="Exploiting Incorrectly Configured SSL Security Levels">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>23</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="156" Pattern_Abstraction="Meta" Node_ID="26" Type="Attack_Pattern" Name="Spoofing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="148" Pattern_Abstraction="Meta" Node_ID="27" Type="Attack_Pattern" Name="Content Spoofing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>26</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="38" Pattern_Abstraction="Standard" Node_ID="28" Type="Attack_Pattern" Name="Leveraging/Manipulating Configuration File Search Paths">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>27</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>220</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="194" Pattern_Abstraction="Standard" Node_ID="29" Type="Attack_Pattern" Name="Fake the Source of Data">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>27</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="145" Pattern_Abstraction="Standard" Node_ID="30" Type="Attack_Pattern" Name="Checksum Spoofing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>27</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="31" Type="Attack_Pattern" Name="Spoofing of UDDI/ebXML Messages">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>27</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="151" Pattern_Abstraction="Meta" Node_ID="32" Type="Attack_Pattern" Name="Identity Spoofing (Impersonation)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>26</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="195" Pattern_Abstraction="Standard" Node_ID="33" Type="Attack_Pattern" Name="Principal Spoofing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="94" Pattern_Abstraction="Standard" Node_ID="34" Type="Attack_Pattern" Name="Man in the Middle Attack">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>93</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="39" Type="Attack_Pattern" Name="XML Routing Detour Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>34</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="57" Pattern_Abstraction="Detailed" Node_ID="35" Type="Attack_Pattern" Name="Utilizing Rests Trust in the System Resource to Register Man in the Middle">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>34</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="202" Pattern_Abstraction="Standard" Node_ID="36" Type="Attack_Pattern" Name="Create Malicious Client">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>93</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Meta" Node_ID="37" Type="Attack_Pattern" Name="Client-Server Protocol Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>93</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>236</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="90" Pattern_Abstraction="Standard" Node_ID="38" Type="Attack_Pattern" Name="Reflection Attack in Authentication Protocol">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>97</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>62</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="40" Type="Attack_Pattern" Name="External Entity Attack">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="98" Pattern_Abstraction="Standard" Node_ID="41" Type="Attack_Pattern" Name="Phishing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="163" Pattern_Abstraction="Detailed" Node_ID="42" Type="Attack_Pattern" Name="Spear Phishing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>41</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="164" Pattern_Abstraction="Detailed" Node_ID="43" Type="Attack_Pattern" Name="Mobile Phishing (aka MobPhishing)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>41</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="89" Pattern_Abstraction="Standard" Node_ID="44" Type="Attack_Pattern" Name="Pharming">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>32</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>232</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="290" CAPEC_ID="173" Name="Action Spoofing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>26</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="288" CAPEC_ID="103" Name="Clickjacking">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>290</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Node_ID="289" Type="Attack_Pattern" Name="iFrame Overlay">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>288</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="260" CAPEC_ID="181" Name="Flash File Overlay">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>288</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="45" CAPEC_ID="-1" Name="Probabilistic Techniques">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="46" CAPEC_ID="112" Name="Brute Force">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>45</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="49" Pattern_Abstraction="Standard" Node_ID="47" Type="Attack_Pattern" Name="Password Brute Forcing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>46</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="70" Pattern_Abstraction="Detailed" Node_ID="48" Type="Attack_Pattern" Name="Try Common (default) Usernames and Passwords">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>47</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="16" Pattern_Abstraction="Detailed" Node_ID="49" Type="Attack_Pattern" Name="Dictionary-based Password Attack">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>47</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="20" Pattern_Abstraction="Standard" Node_ID="50" Type="Attack_Pattern" Name="Encryption Brute Forcing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>46</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="55" Pattern_Abstraction="Standard" Node_ID="51" Type="Attack_Pattern" Name="Rainbow Table password cracking">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>45</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="28" Pattern_Abstraction="Standard" Node_ID="52" Type="Attack_Pattern" Name="Fuzzing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>45</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="97" Pattern_Abstraction="Standard" Node_ID="53" Type="Attack_Pattern" Name="Cryptanalysis">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>276</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="39" Pattern_Abstraction="Standard" Node_ID="54" Type="Attack_Pattern" Name="Manipulating Opaque Client-based Data Tokens">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>45</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="55" Type="Attack_Category" Name="Fingerprinting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>276</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="170" Pattern_Abstraction="Standard" Node_ID="56" Type="Attack_Pattern" Name="Web Server/Application Fingerprinting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>55</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="169" Pattern_Abstraction="Standard" Node_ID="57" Type="Attack_Pattern" Name="Footprinting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>276</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="85" Pattern_Abstraction="Detailed" Node_ID="58" Type="Attack_Category" Name="Client Network Footprinting (using AJAX/XSS)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>57</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="155" Pattern_Abstraction="Standard" Node_ID="59" Type="Attack_Pattern" Name="Screen Temporary Files for Sensitive Information">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>45</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="60" CAPEC_ID="-1" Name="Exploitation of Authentication">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="115" Pattern_Abstraction="Meta" Node_ID="61" Type="Attack_Pattern" Name="Authentication Bypass">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>60</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="114" Pattern_Abstraction="Meta" Node_ID="62" Type="Attack_Pattern" Name="Authentication Abuse">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>60</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="21" Pattern_Abstraction="Standard" Node_ID="63" Type="Attack_Pattern" Name="Exploitation of Session Variables, Resource IDs and other Trusted Credentials">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>60</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="196" Pattern_Abstraction="Detailed" Node_ID="64" Type="Attack_Pattern" Name="Session Credential Falsification through Forging">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>63</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="59" Pattern_Abstraction="Detailed" Node_ID="65" Type="Attack_Pattern" Name="Session Credential Falsification through Prediction">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>64</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="66" Type="Attack_Pattern" Name="Session Credential Falsification through Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>64</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="60" Pattern_Abstraction="Standard" Node_ID="67" Type="Attack_Pattern" Name="Reusing Session IDs (aka Session Replay)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>63</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="61" Pattern_Abstraction="Standard" Node_ID="68" Type="Attack_Pattern" Name="Session Fixation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>63</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="263" CAPEC_ID="102" Name="Session Sidejacking">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>63</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="62" Pattern_Abstraction="Standard" Node_ID="69" Type="Attack_Pattern" Name="Cross-site Request Forgery (aka Session Riding)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>63</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="119" Pattern_Abstraction="Meta" Node_ID="70" Type="Attack_Pattern" Name="Resource Depletion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="71" Type="Attack_Pattern" Name="Denial of Service through Resource Depletion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>70</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="125" Pattern_Abstraction="Standard" Node_ID="72" Type="Attack_Pattern" Name="Resource Depletion through Flooding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>70</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="130" Pattern_Abstraction="Standard" Node_ID="73" Type="Attack_Pattern" Name="Resource Depletion through Allocation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>70</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="74" Type="Attack_Pattern" Name="Resource Depletion through DTD Injection in a SOAP Message">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>73</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="131" Pattern_Abstraction="Standard" Node_ID="75" Type="Attack_Pattern" Name="Resource Depletion through Leak">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>70</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="82" Pattern_Abstraction="Standard" Node_ID="258" Type="Attack_Pattern" Name="Violating Implicit Assumptions Regarding XML Content (aka XML Denial of Service (XDoS))">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>70</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="197" Node_ID="264" Type="Attack_Pattern" Name="XEE  (XML Entity Expansion)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>258</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Node_ID="265" Type="Attack_Pattern" Name="XML Attribute Blowup">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>258</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="99" Pattern_Abstraction="Standard" Node_ID="76" Type="Attack_Pattern" Name="XML Parser Attack">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>258</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="77" Type="Attack_Category" Name="Recursive Payloads Sent to XML Parsers">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>76</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="78" Type="Attack_Category" Name="Oversized Payloads Sent to XML Parsers">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>76</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="147" Pattern_Abstraction="Detailed" Node_ID="259" Type="Attack_Pattern" Name="XML Ping of Death">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>258</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="79" CAPEC_ID="-1" Name="Exploitation of Privilege/Trust">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="80" CAPEC_ID="-1" Name="Privilege Escalation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="17" Pattern_Abstraction="Standard" Node_ID="81" Type="Attack_Pattern" Name="Accessing, Modifying or Executing Executable Files">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>80</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="75" Pattern_Abstraction="Standard" Node_ID="82" Type="Attack_Pattern" Name="Manipulating Writeable Configuration Files">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>80</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>194</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="58" Pattern_Abstraction="Detailed" Node_ID="257" Type="Attack_Pattern" Name="Restful Privilege Elevation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>80</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="132" Pattern_Abstraction="Detailed" Node_ID="83" Type="Attack_Pattern" Name="Symlink Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>80</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="266" CAPEC_ID="104" Name="Cross-Zone Scripting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>80</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="84" Type="Attack_Pattern" Name="Hijacking a privileged process">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="30" Pattern_Abstraction="Standard" Node_ID="85" Type="Attack_Pattern" Name="Hijacking a Privileged Thread of Execution">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="86" Type="Attack_Pattern" Name="Implementing a callback to system routine (old AWT Queue)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>85</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="87" Type="Attack_Pattern" Name="Catching exception throw/signal from privileged block">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>85</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="68" Pattern_Abstraction="Standard" Node_ID="88" Type="Attack_Pattern" Name="Subvert Code-signing Facilities">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="89" Type="Attack_Pattern" Name="Calling signed code from another language within a sandbox that allows this">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>88</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="206" Pattern_Abstraction="Detailed" Node_ID="90" Type="Attack_Pattern" Name="Lifting signing key and signing malicious code from a production environment">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>88</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="91" Type="Attack_Pattern" Name="Using URL/codebase / G.A.C. (code source) to convince sandbox of privilege">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>88</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="69" Pattern_Abstraction="Standard" Node_ID="92" Type="Attack_Pattern" Name="Target Programs with Elevated Privileges">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="22" Pattern_Abstraction="Meta" Node_ID="93" Type="Attack_Pattern" Name="Exploiting Trust in Client (aka Make the Client Invisible)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="167" Pattern_Abstraction="Meta" Node_ID="94" Type="Attack_Pattern" Name="Lifting Sensitive Data from the Client">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>93</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>276</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="37" Pattern_Abstraction="Standard" Node_ID="95" Type="Attack_Pattern" Name="Lifting Data Embedded in Client Distributions">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>94</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="205" Pattern_Abstraction="Standard" Node_ID="96" Type="Attack_Pattern" Name="Lifting credential(s)/key material embedded in client distributions (thick or thin)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>95</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="204" Pattern_Abstraction="Standard" Node_ID="97" Type="Attack_Pattern" Name="Lifting cached, sensitive data embedded in client distributions (thick or thin)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>95</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="207" Pattern_Abstraction="Meta" Node_ID="98" Type="Attack_Pattern" Name="Removing Important Functionality from the Client">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>93</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="56" Pattern_Abstraction="Standard" Node_ID="99" Type="Attack_Pattern" Name="Removing/short-circuiting &apos;guard logic&apos;">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>98</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="208" Pattern_Abstraction="Standard" Node_ID="100" Type="Attack_Pattern" Name="Removing/short-circuiting &apos;Purse&apos; logic: removing/mutating &apos;cash&apos; decrements">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>99</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="200" Pattern_Abstraction="Standard" Node_ID="101" Type="Attack_Pattern" Name="Removal of filters: Input filters, output filters, data masking">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>99</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="102" Type="Attack_Pattern" Name="Subversion of authorization checks: cache filtering, programmatic security, etc.">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>99</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="122" Pattern_Abstraction="Meta" Node_ID="103" Type="Attack_Pattern" Name="Exploitation of Authorization">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>79</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="1" Pattern_Abstraction="Standard" Node_ID="104" Type="Attack_Pattern" Name="Accessing Functionality Not Properly Constrained by ACLs">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>103</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="180" Pattern_Abstraction="Standard" Node_ID="105" Type="Attack_Pattern" Name="Exploiting Incorrectly Configured Access Control Security Levels">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>103</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="152" Pattern_Abstraction="Meta" Node_ID="106" Type="Attack_Pattern" Name="Injection (Injecting Control Plane content through the Data Plane)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="5" Pattern_Abstraction="Detailed" Node_ID="107" Type="Attack_Pattern" Name="Analog In-Band Switching Signals (aka Blue Boxing)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="137" Pattern_Abstraction="Standard" Node_ID="108" Type="Attack_Pattern" Name="Parameter Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="267" CAPEC_ID="174" Name="Flash Parameter Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>108</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="6" Pattern_Abstraction="Standard" Node_ID="109" Type="Attack_Pattern" Name="Argument Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>108</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="76" Pattern_Abstraction="Standard" Node_ID="110" Type="Attack_Pattern" Name="Manipulating Input to File System Calls">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>108</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>198</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="111" Type="Attack_Category" Name="Resource Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="112" Type="Attack_Category" Name="Code Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>111</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="23" Pattern_Abstraction="Standard" Node_ID="113" Type="Attack_Pattern" Name="File System Function Injection, Content Based">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>112</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>114</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="268" CAPEC_ID="182" Name="Flash Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>111</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="269" CAPEC_ID="178" Name="Cross-Site Flashing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>268</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="114" Type="Attack_Category" Name="Script Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="63" Pattern_Abstraction="Standard" Node_ID="115" Type="Attack_Pattern" Name="Simple Script Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>114</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="19" Pattern_Abstraction="Standard" Node_ID="116" Type="Attack_Pattern" Name="Embedding Script within Scripts">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>114</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="18" Pattern_Abstraction="Standard" Node_ID="117" Type="Attack_Pattern" Name="Embedding Script in Nonscript Elements">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>114</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="86" Pattern_Abstraction="Detailed" Node_ID="118" Type="Attack_Pattern" Name="Embedding Script (XSS) in HTTP Headers">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="270" CAPEC_ID="107" Name="Cross-Site Tracing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>118</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="32" Pattern_Abstraction="Detailed" Node_ID="119" Type="Attack_Pattern" Name="Embedding Script in HTTP Query Strings">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="198" Pattern_Abstraction="Detailed" Node_ID="120" Type="Attack_Pattern" Name="Cross-Site Scripting in Error Pages">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="271" CAPEC_ID="106" Name="Cross-Site Scripting in Log Files">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="91" Pattern_Abstraction="Detailed" Node_ID="121" Type="Attack_Pattern" Name="Cross-Site Scripting in IMG Tags">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="122" Type="Attack_Pattern" Name="Cross-Site Scripting in Attributes">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="123" Type="Attack_Pattern" Name="Cross-Site Scripting via Encoded URI Schemes">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="124" Type="Attack_Pattern" Name="Cross-Site Scripting Using Doubled Characters, e.g. %3C%3Cscript">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="199" Pattern_Abstraction="Detailed" Node_ID="125" Type="Attack_Pattern" Name="Cross-Site Scripting Using Alternate Syntax">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="209" Node_ID="272" Type="Attack_Pattern" Name="Cross-Site Scripting Using MIME Type Mismatch">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Node_ID="273" Type="Attack_Pattern" Name="Cross-Site Scripting Using Flash">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="126" Type="Attack_Pattern" Name="Cross-Site Scripting with Masking through Invalid Characters in Identifiers">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>117</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="41" Pattern_Abstraction="Detailed" Node_ID="128" Type="Attack_Pattern" Name="Using Meta-characters in E-mail Headers to Inject Malicious Payloads">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>114</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>145</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="129" Type="Attack_Category" Name="Command Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="274" CAPEC_ID="108" Name="Command Line Execution through SQL Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>129</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="275" CAPEC_ID="183" Name="IMAP/SMTP Command Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>129</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="15" Pattern_Abstraction="Standard" Node_ID="130" Type="Attack_Pattern" Name="Command Delimiters">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>129</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="88" Pattern_Abstraction="Standard" Node_ID="131" Type="Attack_Pattern" Name="OS Command Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>130</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="66" Pattern_Abstraction="Standard" Node_ID="132" Type="Attack_Pattern" Name="SQL Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="291" CAPEC_ID="109" Name="Object Relational Mapping (ORM) Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>132</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="7" Pattern_Abstraction="Detailed" Node_ID="133" Type="Attack_Pattern" Name="Blind SQL Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>132</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="110" Pattern_Abstraction="Detailed" Node_ID="134" Type="Attack_Pattern" Name="SQL Injection through SOAP Parameter Tampering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>132</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>133</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>248</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="135" Type="Attack_Category" Name="Character Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="40" Pattern_Abstraction="Detailed" Node_ID="136" Type="Attack_Pattern" Name="Manipulating Writeable Terminal Devices">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>135</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="136" Pattern_Abstraction="Standard" Node_ID="137" Type="Attack_Pattern" Name="LDAP Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="138" Type="Attack_Category" Name="XML Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="83" Pattern_Abstraction="Detailed" Node_ID="139" Type="Attack_Pattern" Name="Xpath Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>138</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="84" Pattern_Abstraction="Detailed" Node_ID="140" Type="Attack_Pattern" Name="Xquery Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>138</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="278" CAPEC_ID="175" Name="Code Inclusion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Node_ID="279" Type="Attack_Pattern" Name="Local Code Inclusion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>278</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Node_ID="280" Type="Attack_Pattern" Name="PHP Local File Inclusion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>279</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="141" Type="Attack_Category" Name="Remote Code Inclusion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="193" Node_ID="281" Type="Attack_Pattern" Name="PHP Remote File Inclusion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>141</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="101" Pattern_Abstraction="Standard" Node_ID="142" Type="Attack_Pattern" Name="Server Side Include (SSI) Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>141</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="135" Pattern_Abstraction="Detailed" Node_ID="143" Type="Attack_Pattern" Name="Format String Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="138" Pattern_Abstraction="Standard" Node_ID="144" Type="Attack_Pattern" Name="Reflection Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="134" Pattern_Abstraction="Standard" Node_ID="145" Type="Attack_Pattern" Name="Email Injection">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="147" Type="Attack_Pattern" Name="DTD Injection in a SOAP Message">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>106</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>246</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Category" Node_ID="148" CAPEC_ID="-1" Name="Data Structure Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="123" Pattern_Abstraction="Meta" Node_ID="149" Type="Attack_Pattern" Name="Buffer Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>148</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="100" Pattern_Abstraction="Standard" Node_ID="150" Type="Attack_Pattern" Name="Overflow Buffers">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>149</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="24" Pattern_Abstraction="Detailed" Node_ID="151" Type="Attack_Pattern" Name="Filter Failure through Buffer Overflow">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="10" Pattern_Abstraction="Detailed" Node_ID="152" Type="Attack_Pattern" Name="Buffer Overflow via Environment Variables">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="8" Pattern_Abstraction="Detailed" Node_ID="153" Type="Attack_Pattern" Name="Buffer Overflow in an API Call">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="9" Pattern_Abstraction="Detailed" Node_ID="154" Type="Attack_Pattern" Name="Buffer Overflow in Local Command-Line Utilities">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="46" Pattern_Abstraction="Detailed" Node_ID="155" Type="Attack_Pattern" Name="Overflow Variables and Tags">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="45" Pattern_Abstraction="Detailed" Node_ID="156" Type="Attack_Pattern" Name="Buffer Overflow via Symbolic Links">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="67" Pattern_Abstraction="Detailed" Node_ID="157" Type="Attack_Pattern" Name="String Format Overflow in syslog()">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="14" Pattern_Abstraction="Detailed" Node_ID="158" Type="Attack_Pattern" Name="Client-side Injection-induced Buffer Overflow">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="44" Pattern_Abstraction="Detailed" Node_ID="159" Type="Attack_Pattern" Name="Overflow Binary Resource File">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="31" Pattern_Abstraction="Detailed" Node_ID="160" Type="Attack_Pattern" Name="Accessing/Intercepting/Modifying HTTP Cookies">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>63</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>148</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>169</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="47" Pattern_Abstraction="Detailed" Node_ID="161" Type="Attack_Pattern" Name="Buffer Overflow via Parameter Expansion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="42" Pattern_Abstraction="Detailed" Node_ID="162" Type="Attack_Pattern" Name="MIME Conversion">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="163" Type="Attack_Pattern" Name="SOAP Array Overflow">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>150</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="128" Pattern_Abstraction="Meta" Node_ID="164" Type="Attack_Pattern" Name="Integer Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>148</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="92" Pattern_Abstraction="Standard" Node_ID="165" Type="Attack_Pattern" Name="Forced Integer Overflow">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>164</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="129" Pattern_Abstraction="Meta" Node_ID="166" Type="Attack_Pattern" Name="Pointer Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>148</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="124" Pattern_Abstraction="Meta" Node_ID="167" Type="Attack_Pattern" Name="Attack through Shared Data">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>148</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Node_ID="282" Type="Attack_Pattern" Name="Abuse of transaction data strutcture">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>149</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="283" CAPEC_ID="111" Name="JSON Hijacking (aka JavaScript Hijacking)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>282</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="118" Pattern_Abstraction="Meta" Node_ID="168" Type="Attack_Pattern" Name="Data Leakage Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="117" Pattern_Abstraction="Meta" Node_ID="169" Type="Attack_Pattern" Name="Data Interception Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>168</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="157" Pattern_Abstraction="Meta" Node_ID="170" Type="Attack_Pattern" Name="Sniffing Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>169</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="158" Pattern_Abstraction="Standard" Node_ID="171" Type="Attack_Pattern" Name="Sniffing Information Sent Over Public/multicast Networks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>170</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="65" Pattern_Abstraction="Standard" Node_ID="172" Type="Attack_Pattern" Name="Passively Sniff and Capture Application Code Bound for an Authorized Client">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>171</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="173" Type="Attack_Pattern" Name="Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Dynamic Update">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>172</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="174" Type="Attack_Pattern" Name="Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Patching">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>172</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="175" Type="Attack_Pattern" Name="Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Initial Distribution">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>172</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="116" Pattern_Abstraction="Meta" Node_ID="176" Type="Attack_Pattern" Name="Data Excavation Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>168</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="177" Type="Attack_Pattern" Name="Fuzzing for garnering (through web or log) other adjacent user/sensitive data as an authorized system user (overly broad but valid SQL queries)">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>176</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Meta" Node_ID="178" Type="Attack_Pattern" Name="Resource Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="165" Pattern_Abstraction="Meta" Node_ID="179" Type="Attack_Pattern" Name="File manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="73" Pattern_Abstraction="Standard" Node_ID="180" Type="Attack_Pattern" Name="User-Controlled Filename">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="35" Pattern_Abstraction="Standard" Node_ID="190" Type="Attack_Pattern" Name="Leverage Executable Code in Nonexecutable Files">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="11" Pattern_Abstraction="Standard" Node_ID="191" Type="Attack_Pattern" Name="Cause Web Server Misclassification">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>206</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="192" Type="Attack_Pattern" Name="Force Use of Corruped Files">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="177" Pattern_Abstraction="Standard" Node_ID="193" Type="Attack_Pattern" Name="Create files with the same name as files protected with a higher classification">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>179</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="176" Pattern_Abstraction="Meta" Node_ID="194" Type="Attack_Pattern" Name="Configuration/Environment manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="203" Pattern_Abstraction="Standard" Node_ID="195" Type="Attack_Pattern" Name="Manipulate Application Registry Values">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>194</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="96" Pattern_Abstraction="Standard" Node_ID="196" Type="Attack_Pattern" Name="Block Access to Libraries">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>194</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="159" Pattern_Abstraction="Standard" Node_ID="197" Type="Attack_Pattern" Name="Redirect Access to Libraries">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>194</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="171" Pattern_Abstraction="Meta" Node_ID="198" Type="Attack_Pattern" Name="Variable manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="200" Type="Attack_Category" Name="Environment variable manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>198</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="13" Pattern_Abstraction="Standard" Node_ID="201" Type="Attack_Pattern" Name="Subverting Environment Variable Values">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>200</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="202" Type="Attack_Category" Name="Global variable manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>198</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="77" Pattern_Abstraction="Standard" Node_ID="203" Type="Attack_Pattern" Name="Manipulating User-Controlled Variables">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>202</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="166" Pattern_Abstraction="Standard" Node_ID="204" Type="Attack_Pattern" Name="Force the System to Reset Values">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>198</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="153" Pattern_Abstraction="Meta" Node_ID="205" Type="Attack_Pattern" Name="Input Data Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="206" Type="Attack_Category" Name="Manipulate Canonicalization">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>205</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="207" Type="Attack_Category" Name="Leverage Alternate Encoding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>205</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="71" Pattern_Abstraction="Detailed" Node_ID="208" Type="Attack_Pattern" Name="Using Unicode Encoding to Bypass Validation Logic">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="80" Pattern_Abstraction="Detailed" Node_ID="209" Type="Attack_Pattern" Name="Using UTF-8 Encoding to Bypass Validation Logic">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="72" Pattern_Abstraction="Standard" Node_ID="210" Type="Attack_Pattern" Name="URL Encoding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="52" Pattern_Abstraction="Detailed" Node_ID="211" Type="Attack_Pattern" Name="Embedding NULL Bytes">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="53" Pattern_Abstraction="Detailed" Node_ID="212" Type="Attack_Pattern" Name="Postfix, Null Terminate, and Backslash">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="3" Pattern_Abstraction="Detailed" Node_ID="213" Type="Attack_Pattern" Name="Using Leading &apos;Ghost&apos; Character Sequences to Bypass Input Filters">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="79" Pattern_Abstraction="Detailed" Node_ID="214" Type="Attack_Pattern" Name="Using Slashes in Alternate Encoding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>221</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="78" Pattern_Abstraction="Detailed" Node_ID="215" Type="Attack_Pattern" Name="Using Escaped Slashes in Alternate Encoding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>221</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="64" Pattern_Abstraction="Detailed" Node_ID="216" Type="Attack_Pattern" Name="Using Slashes and URL Encoding Combined to Bypass Validation Logic">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>221</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="4" Pattern_Abstraction="Detailed" Node_ID="217" Type="Attack_Pattern" Name="Using Alternative IP Address Encodings">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="43" Pattern_Abstraction="Standard" Node_ID="218" Type="Attack_Pattern" Name="Exploiting Multiple Input Interpretation Layers">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="120" Pattern_Abstraction="Standard" Node_ID="219" Type="Attack_Pattern" Name="Double Encoding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>207</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="154" Pattern_Abstraction="Meta" Node_ID="220" Type="Attack_Pattern" Name="Resource Location Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="126" Pattern_Abstraction="Standard" Node_ID="221" Type="Attack_Category" Name="Path Traversal">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>220</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="139" Pattern_Abstraction="Standard" Node_ID="222" Type="Attack_Pattern" Name="Relative Path Traversal">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>221</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="150" Pattern_Abstraction="Standard" Node_ID="223" Type="Attack_Pattern" Name="Common resource location exploration">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>220</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="149" Pattern_Abstraction="Standard" Node_ID="224" Type="Attack_Pattern" Name="Explore for predictable temporary file names">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>223</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="127" Pattern_Abstraction="Standard" Node_ID="225" Type="Attack_Pattern" Name="Directory Indexing">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>220</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="226" Type="Attack_Category" Name="Audit Log Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="81" Pattern_Abstraction="Standard" Node_ID="227" Type="Attack_Pattern" Name="Web Logs Tampering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>226</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="93" Pattern_Abstraction="Standard" Node_ID="228" Type="Attack_Pattern" Name="Log Injection-Tampering-Forging">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>226</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="229" Type="Attack_Category" Name="Registry Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="51" Pattern_Abstraction="Standard" Node_ID="230" Type="Attack_Pattern" Name="Poison Web Service Registry">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>229</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="231" Type="Attack_Pattern" Name="Craft a Maliciously Misconfigured Registry">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>229</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="161" Pattern_Abstraction="Meta" Node_ID="232" Type="Attack_Pattern" Name="Infrastructure Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="142" Pattern_Abstraction="Detailed" Node_ID="233" Type="Attack_Pattern" Name="DNS Cache Poisoning">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>232</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="234" Type="Attack_Category" Name="Schema Poisoning">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="146" Pattern_Abstraction="Detailed" Node_ID="235" Type="Attack_Pattern" Name="XML Schema Poisoning">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>234</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Meta" Node_ID="236" Type="Attack_Pattern" Name="Protocol Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>178</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="105" Pattern_Abstraction="Detailed" Node_ID="284" Type="Attack_Pattern" Name="HTTP Request Splitting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="34" Pattern_Abstraction="Detailed" Node_ID="238" Type="Attack_Pattern" Name="HTTP Response Splitting">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="33" Pattern_Abstraction="Detailed" Node_ID="239" Type="Attack_Pattern" Name="HTTP Request Smuggling">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="285" Type="Attack_Pattern" Name="HTTP Response Smuggling">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="286" Type="Attack_Pattern" Name="HTTP Verb Tampering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>37</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="287" Type="Attack_Pattern" Name="DNS Rebinding">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>236</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="242" Type="Attack_Category" Name="Inter-component Protocol Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>236</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="243" Type="Attack_Category" Name="Data Interchange Protocol Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>236</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="244" Type="Attack_Category" Name="Web Services Protocol Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>236</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="201" Pattern_Abstraction="Detailed" Node_ID="245" Type="Attack_Category" Name="XML External Entity Attack">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>244</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Standard" Node_ID="246" Type="Attack_Category" Name="Soap Manipulation">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>244</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="-1" Pattern_Abstraction="Detailed" Node_ID="248" Type="Attack_Pattern" Name="SOAP Parameter Tampering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>246</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="168" Pattern_Abstraction="Detailed" Node_ID="249" Type="Attack_Pattern" Name="Windows ::DATA Alternate Data Stream">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>236</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="172" Pattern_Abstraction="Meta" Node_ID="250" Type="Attack_Pattern" Name="Time and State Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="74" Pattern_Abstraction="Standard" Node_ID="251" Type="Attack_Pattern" Name="Manipulating User State">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>250</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="140" Pattern_Abstraction="Detailed" Node_ID="252" Type="Attack_Pattern" Name="Bypassing of Intermediate Forms in Multiple-Form Sets">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>251</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="25" Pattern_Abstraction="Standard" Node_ID="253" Type="Attack_Pattern" Name="Forced Deadlock">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>250</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="26" Pattern_Abstraction="Standard" Node_ID="254" Type="Attack_Pattern" Name="Leveraging Race Conditions">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>250</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="27" Pattern_Abstraction="Detailed" Node_ID="255" Type="Attack_Pattern" Name="Leveraging Race Conditions via Symbolic Links">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>254</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node CAPEC_ID="29" Pattern_Abstraction="Standard" Node_ID="256" Type="Attack_Pattern" Name="Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>250</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="276" CAPEC_ID="-1" Name="Analytic Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>0</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="277" CAPEC_ID="188" Name="Reverse Engineering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>276</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="278" CAPEC_ID="189" Name="Software Reverse Engineering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>277</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="279" CAPEC_ID="190" Name="Reverse Engineer an Executable to Expose Assumed Hidden Functionality or Content">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>278</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="280" CAPEC_ID="191" Name="Read Sensitive Stings Within an Executable">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>279</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="281" CAPEC_ID="192" Name="Protocol Reverse Engineering">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>277</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="282" CAPEC_ID="184" Name="Software Integrity Attacks">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>1</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="283" CAPEC_ID="185" Name="Malicious Software Download">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>282</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="284" CAPEC_ID="186" Name="Malicious Software Update">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>283</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+	<Taxonomy_Node Type="Attack_Pattern" Node_ID="285" CAPEC_ID="187" Name="Malicious Automated Software Update">
+		<Node_Relationship>
+			<Relationship_Type>ChildOf</Relationship_Type>
+			<Related_Node>284</Related_Node>
+		</Node_Relationship>
+	</Taxonomy_Node>
+</Attack_Taxonomy>
