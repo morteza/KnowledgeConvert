@@ -1,4 +1,4 @@
-// $ANTLR 3.4 C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g 2012-04-17 10:34:38
+// $ANTLR 3.4 C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g 2012-04-22 11:03:00
 
     package parser;
     
@@ -64,17 +64,17 @@ public class CapecParser16 extends Lexer {
     public CapecParser16(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g"; }
+    public String getGrammarFileName() { return "C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g"; }
 
     // $ANTLR start "DOCUMENT"
     public final void mDOCUMENT() throws RecognitionException {
         try {
             int _type = DOCUMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:31:3: ( ( XMLDECL )? ( DOCTYPE )? TAXONOMY )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:32:3: ( XMLDECL )? ( DOCTYPE )? TAXONOMY
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:31:3: ( ( XMLDECL )? ( DOCTYPE )? TAXONOMY )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:32:3: ( XMLDECL )? ( DOCTYPE )? TAXONOMY
             {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:32:3: ( XMLDECL )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:32:3: ( XMLDECL )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -87,7 +87,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:32:3: XMLDECL
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:32:3: XMLDECL
                     {
                     mXMLDECL(); 
 
@@ -98,7 +98,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:32:12: ( DOCTYPE )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:32:12: ( DOCTYPE )?
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -111,7 +111,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:32:12: DOCTYPE
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:32:12: DOCTYPE
                     {
                     mDOCTYPE(); 
 
@@ -139,8 +139,8 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "DOCTYPE"
     public final void mDOCTYPE() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:37:3: ( '<!DOCTYPE' WS GENERIC_ID WS ( ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )? )? ( INTERNAL_DTD )? '>' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:38:3: '<!DOCTYPE' WS GENERIC_ID WS ( ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )? )? ( INTERNAL_DTD )? '>'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:37:3: ( '<!DOCTYPE' WS GENERIC_ID WS ( ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )? )? ( INTERNAL_DTD )? '>' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:38:3: '<!DOCTYPE' WS GENERIC_ID WS ( ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )? )? ( INTERNAL_DTD )? '>'
             {
             match("<!DOCTYPE"); 
 
@@ -155,7 +155,7 @@ public class CapecParser16 extends Lexer {
             mWS(); 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:39:3: ( ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )? )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:39:3: ( ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )? )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -164,9 +164,9 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:40:5: ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )?
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:40:5: ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE ) ( WS )?
                     {
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:40:5: ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE )
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:40:5: ( 'SYSTEM' WS VALUE | 'PUBLIC' WS VALUE WS VALUE )
                     int alt3=2;
                     int LA3_0 = input.LA(1);
 
@@ -185,7 +185,7 @@ public class CapecParser16 extends Lexer {
                     }
                     switch (alt3) {
                         case 1 :
-                            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:41:7: 'SYSTEM' WS VALUE
+                            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:41:7: 'SYSTEM' WS VALUE
                             {
                             match("SYSTEM"); 
 
@@ -200,7 +200,7 @@ public class CapecParser16 extends Lexer {
                             }
                             break;
                         case 2 :
-                            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:42:9: 'PUBLIC' WS VALUE WS VALUE
+                            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:42:9: 'PUBLIC' WS VALUE WS VALUE
                             {
                             match("PUBLIC"); 
 
@@ -224,7 +224,7 @@ public class CapecParser16 extends Lexer {
                     }
 
 
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:44:5: ( WS )?
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:44:5: ( WS )?
                     int alt4=2;
                     int LA4_0 = input.LA(1);
 
@@ -233,7 +233,7 @@ public class CapecParser16 extends Lexer {
                     }
                     switch (alt4) {
                         case 1 :
-                            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:44:6: WS
+                            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:44:6: WS
                             {
                             mWS(); 
 
@@ -250,7 +250,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:46:3: ( INTERNAL_DTD )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:46:3: ( INTERNAL_DTD )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -259,7 +259,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:46:4: INTERNAL_DTD
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:46:4: INTERNAL_DTD
                     {
                     mINTERNAL_DTD(); 
 
@@ -285,12 +285,12 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "INTERNAL_DTD"
     public final void mINTERNAL_DTD() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:51:3: ( '[' ( options {greedy=false; } : . )* ']' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:52:3: '[' ( options {greedy=false; } : . )* ']'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:51:3: ( '[' ( options {greedy=false; } : . )* ']' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:52:3: '[' ( options {greedy=false; } : . )* ']'
             {
             match('['); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:52:7: ( options {greedy=false; } : . )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:52:7: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -306,7 +306,7 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:52:33: .
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:52:33: .
             	    {
             	    matchAny(); 
 
@@ -334,8 +334,8 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "XMLDECL"
     public final void mXMLDECL() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:57:3: ( '<?' ( 'x' | 'X' ) ( 'm' | 'M' ) ( 'l' | 'L' ) ( WS )? ( ATTRIBUTE ( WS )? )* '?>' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:58:3: '<?' ( 'x' | 'X' ) ( 'm' | 'M' ) ( 'l' | 'L' ) ( WS )? ( ATTRIBUTE ( WS )? )* '?>'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:57:3: ( '<?' ( 'x' | 'X' ) ( 'm' | 'M' ) ( 'l' | 'L' ) ( WS )? ( ATTRIBUTE ( WS )? )* '?>' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:58:3: '<?' ( 'x' | 'X' ) ( 'm' | 'M' ) ( 'l' | 'L' ) ( WS )? ( ATTRIBUTE ( WS )? )* '?>'
             {
             match("<?"); 
 
@@ -371,7 +371,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:62:3: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:62:3: ( WS )?
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -380,7 +380,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt8) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:62:3: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:62:3: WS
                     {
                     mWS(); 
 
@@ -391,7 +391,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:62:7: ( ATTRIBUTE ( WS )? )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:62:7: ( ATTRIBUTE ( WS )? )*
             loop10:
             do {
                 int alt10=2;
@@ -404,12 +404,12 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:62:8: ATTRIBUTE ( WS )?
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:62:8: ATTRIBUTE ( WS )?
             	    {
             	    mATTRIBUTE(); 
 
 
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:62:18: ( WS )?
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:62:18: ( WS )?
             	    int alt9=2;
             	    int LA9_0 = input.LA(1);
 
@@ -418,7 +418,7 @@ public class CapecParser16 extends Lexer {
             	    }
             	    switch (alt9) {
             	        case 1 :
-            	            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:62:18: WS
+            	            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:62:18: WS
             	            {
             	            mWS(); 
 
@@ -457,13 +457,13 @@ public class CapecParser16 extends Lexer {
         try {
             CommonToken tt=null;
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:67:3: ( TAXONOMY_START_TAG (tt= TAXONOMY_NODE )* '</Attack_Taxonomy>' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:68:3: TAXONOMY_START_TAG (tt= TAXONOMY_NODE )* '</Attack_Taxonomy>'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:67:3: ( TAXONOMY_START_TAG (tt= TAXONOMY_NODE )* '</Attack_Taxonomy>' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:68:3: TAXONOMY_START_TAG (tt= TAXONOMY_NODE )* '</Attack_Taxonomy>'
             {
             mTAXONOMY_START_TAG(); 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:68:22: (tt= TAXONOMY_NODE )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:68:22: (tt= TAXONOMY_NODE )*
             loop11:
             do {
                 int alt11=2;
@@ -485,7 +485,7 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt11) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:68:23: tt= TAXONOMY_NODE
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:68:23: tt= TAXONOMY_NODE
             	    {
             	    int ttStart266 = getCharIndex();
             	    int ttStartLine266 = getLine();
@@ -526,14 +526,14 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "TAXONOMY_START_TAG"
     public final void mTAXONOMY_START_TAG() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:76:3: ( '<Attack_Taxonomy' (~ '>' )* '>' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:77:3: '<Attack_Taxonomy' (~ '>' )* '>'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:76:3: ( '<Attack_Taxonomy' (~ '>' )* '>' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:77:3: '<Attack_Taxonomy' (~ '>' )* '>'
             {
             match("<Attack_Taxonomy"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:77:22: (~ '>' )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:77:22: (~ '>' )*
             loop12:
             do {
                 int alt12=2;
@@ -546,7 +546,7 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '=')||(input.LA(1) >= '?' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -587,14 +587,14 @@ public class CapecParser16 extends Lexer {
         try {
             CommonToken data=null;
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:82:3: ( ( WS )? '<Taxonomy_Node' ( WS )? ( NODE_ATTRIBUTE ( WS )? )* '>' ( (data= NODE_DATA )* | COMMENT ) ( WS )? '</Taxonomy_Node>' ( WS )? )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:84:4: ( WS )? '<Taxonomy_Node' ( WS )? ( NODE_ATTRIBUTE ( WS )? )* '>' ( (data= NODE_DATA )* | COMMENT ) ( WS )? '</Taxonomy_Node>' ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:82:3: ( ( WS )? '<Taxonomy_Node' ( WS )? ( NODE_ATTRIBUTE ( WS )? )* '>' ( (data= NODE_DATA )* | COMMENT ) ( WS )? '</Taxonomy_Node>' ( WS )? )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:84:4: ( WS )? '<Taxonomy_Node' ( WS )? ( NODE_ATTRIBUTE ( WS )? )* '>' ( (data= NODE_DATA )* | COMMENT ) ( WS )? '</Taxonomy_Node>' ( WS )?
             {
 
                 node = new GraphNode();
                
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:3: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:3: ( WS )?
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -603,7 +603,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt13) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:3: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:3: WS
                     {
                     mWS(); 
 
@@ -618,7 +618,7 @@ public class CapecParser16 extends Lexer {
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:24: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:24: ( WS )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -627,7 +627,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt14) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:24: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:24: WS
                     {
                     mWS(); 
 
@@ -638,7 +638,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:28: ( NODE_ATTRIBUTE ( WS )? )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:28: ( NODE_ATTRIBUTE ( WS )? )*
             loop16:
             do {
                 int alt16=2;
@@ -651,12 +651,12 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt16) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:29: NODE_ATTRIBUTE ( WS )?
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:29: NODE_ATTRIBUTE ( WS )?
             	    {
             	    mNODE_ATTRIBUTE(); 
 
 
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:44: ( WS )?
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:44: ( WS )?
             	    int alt15=2;
             	    int LA15_0 = input.LA(1);
 
@@ -665,7 +665,7 @@ public class CapecParser16 extends Lexer {
             	    }
             	    switch (alt15) {
             	        case 1 :
-            	            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:87:44: WS
+            	            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:87:44: WS
             	            {
             	            mWS(); 
 
@@ -687,7 +687,7 @@ public class CapecParser16 extends Lexer {
 
             match('>'); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:88:3: ( (data= NODE_DATA )* | COMMENT )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:88:3: ( (data= NODE_DATA )* | COMMENT )
             int alt18=2;
             int LA18_0 = input.LA(1);
 
@@ -720,16 +720,16 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt18) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:89:5: (data= NODE_DATA )*
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:89:5: (data= NODE_DATA )*
                     {
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:89:5: (data= NODE_DATA )*
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:89:5: (data= NODE_DATA )*
                     loop17:
                     do {
                         int alt17=2;
                         alt17 = dfa17.predict(input);
                         switch (alt17) {
                     	case 1 :
-                    	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:89:6: data= NODE_DATA
+                    	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:89:6: data= NODE_DATA
                     	    {
                     	    int dataStart396 = getCharIndex();
                     	    int dataStartLine396 = getLine();
@@ -756,7 +756,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:93:7: COMMENT
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:93:7: COMMENT
                     {
                     mCOMMENT(); 
 
@@ -767,7 +767,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:95:3: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:95:3: ( WS )?
             int alt19=2;
             int LA19_0 = input.LA(1);
 
@@ -776,7 +776,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt19) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:95:3: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:95:3: WS
                     {
                     mWS(); 
 
@@ -791,7 +791,7 @@ public class CapecParser16 extends Lexer {
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:95:26: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:95:26: ( WS )?
             int alt20=2;
             int LA20_0 = input.LA(1);
 
@@ -800,7 +800,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt20) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:95:26: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:95:26: WS
                     {
                     mWS(); 
 
@@ -827,8 +827,8 @@ public class CapecParser16 extends Lexer {
             CommonToken name=null;
             CommonToken value=null;
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:100:3: (name= GENERIC_ID ( WS )? '=' ( WS )? value= VALUE )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:101:3: name= GENERIC_ID ( WS )? '=' ( WS )? value= VALUE
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:100:3: (name= GENERIC_ID ( WS )? '=' ( WS )? value= VALUE )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:101:3: name= GENERIC_ID ( WS )? '=' ( WS )? value= VALUE
             {
             int nameStart462 = getCharIndex();
             int nameStartLine462 = getLine();
@@ -839,7 +839,7 @@ public class CapecParser16 extends Lexer {
             name.setCharPositionInLine(nameStartCharPos462);
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:101:19: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:101:19: ( WS )?
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -848,7 +848,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt21) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:101:19: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:101:19: WS
                     {
                     mWS(); 
 
@@ -861,7 +861,7 @@ public class CapecParser16 extends Lexer {
 
             match('='); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:101:27: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:101:27: ( WS )?
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -870,7 +870,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt22) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:101:27: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:101:27: WS
                     {
                     mWS(); 
 
@@ -907,7 +907,7 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "NODE_ATTRIBUTE"
     public final void mNODE_ATTRIBUTE() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:109:3: ( CAPEC_ID | NODE_ID | NODE_PATTERN_ABSTRACTION | NODE_TYPE | NODE_NAME )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:109:3: ( CAPEC_ID | NODE_ID | NODE_PATTERN_ABSTRACTION | NODE_TYPE | NODE_NAME )
             int alt23=5;
             switch ( input.LA(1) ) {
             case 'C':
@@ -954,7 +954,7 @@ public class CapecParser16 extends Lexer {
 
             switch (alt23) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:110:3: CAPEC_ID
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:110:3: CAPEC_ID
                     {
                     mCAPEC_ID(); 
 
@@ -962,7 +962,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:111:5: NODE_ID
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:111:5: NODE_ID
                     {
                     mNODE_ID(); 
 
@@ -970,7 +970,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:112:5: NODE_PATTERN_ABSTRACTION
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:112:5: NODE_PATTERN_ABSTRACTION
                     {
                     mNODE_PATTERN_ABSTRACTION(); 
 
@@ -978,7 +978,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:113:5: NODE_TYPE
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:113:5: NODE_TYPE
                     {
                     mNODE_TYPE(); 
 
@@ -986,7 +986,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 5 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:114:5: NODE_NAME
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:114:5: NODE_NAME
                     {
                     mNODE_NAME(); 
 
@@ -1008,14 +1008,14 @@ public class CapecParser16 extends Lexer {
         try {
             CommonToken value=null;
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:119:3: ( 'CAPEC_ID' ( WS )? '=' ( WS )? value= VALUE )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:120:3: 'CAPEC_ID' ( WS )? '=' ( WS )? value= VALUE
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:119:3: ( 'CAPEC_ID' ( WS )? '=' ( WS )? value= VALUE )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:120:3: 'CAPEC_ID' ( WS )? '=' ( WS )? value= VALUE
             {
             match("CAPEC_ID"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:120:14: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:120:14: ( WS )?
             int alt24=2;
             int LA24_0 = input.LA(1);
 
@@ -1024,7 +1024,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt24) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:120:14: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:120:14: WS
                     {
                     mWS(); 
 
@@ -1037,7 +1037,7 @@ public class CapecParser16 extends Lexer {
 
             match('='); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:120:22: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:120:22: ( WS )?
             int alt25=2;
             int LA25_0 = input.LA(1);
 
@@ -1046,7 +1046,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt25) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:120:22: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:120:22: WS
                     {
                     mWS(); 
 
@@ -1081,14 +1081,14 @@ public class CapecParser16 extends Lexer {
         try {
             CommonToken value=null;
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:125:3: ( 'Node_ID' ( WS )? '=' ( WS )? value= VALUE )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:126:3: 'Node_ID' ( WS )? '=' ( WS )? value= VALUE
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:125:3: ( 'Node_ID' ( WS )? '=' ( WS )? value= VALUE )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:126:3: 'Node_ID' ( WS )? '=' ( WS )? value= VALUE
             {
             match("Node_ID"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:126:13: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:126:13: ( WS )?
             int alt26=2;
             int LA26_0 = input.LA(1);
 
@@ -1097,7 +1097,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt26) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:126:13: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:126:13: WS
                     {
                     mWS(); 
 
@@ -1110,7 +1110,7 @@ public class CapecParser16 extends Lexer {
 
             match('='); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:126:21: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:126:21: ( WS )?
             int alt27=2;
             int LA27_0 = input.LA(1);
 
@@ -1119,7 +1119,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt27) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:126:21: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:126:21: WS
                     {
                     mWS(); 
 
@@ -1152,14 +1152,14 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "NODE_PATTERN_ABSTRACTION"
     public final void mNODE_PATTERN_ABSTRACTION() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:131:3: ( 'Pattern_Abstraction' ( WS )? '=' ( WS )? ( '\"Meta\"' | '\"Standard\"' | '\"Detailed\"' ) )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:132:3: 'Pattern_Abstraction' ( WS )? '=' ( WS )? ( '\"Meta\"' | '\"Standard\"' | '\"Detailed\"' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:131:3: ( 'Pattern_Abstraction' ( WS )? '=' ( WS )? ( '\"Meta\"' | '\"Standard\"' | '\"Detailed\"' ) )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:132:3: 'Pattern_Abstraction' ( WS )? '=' ( WS )? ( '\"Meta\"' | '\"Standard\"' | '\"Detailed\"' )
             {
             match("Pattern_Abstraction"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:132:25: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:132:25: ( WS )?
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -1168,7 +1168,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt28) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:132:25: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:132:25: WS
                     {
                     mWS(); 
 
@@ -1181,7 +1181,7 @@ public class CapecParser16 extends Lexer {
 
             match('='); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:132:33: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:132:33: ( WS )?
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -1190,7 +1190,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:132:33: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:132:33: WS
                     {
                     mWS(); 
 
@@ -1201,7 +1201,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:133:3: ( '\"Meta\"' | '\"Standard\"' | '\"Detailed\"' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:133:3: ( '\"Meta\"' | '\"Standard\"' | '\"Detailed\"' )
             int alt30=3;
             int LA30_0 = input.LA(1);
 
@@ -1240,7 +1240,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt30) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:134:5: '\"Meta\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:134:5: '\"Meta\"'
                     {
                     match("\"Meta\""); 
 
@@ -1249,7 +1249,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:135:7: '\"Standard\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:135:7: '\"Standard\"'
                     {
                     match("\"Standard\""); 
 
@@ -1258,7 +1258,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:136:7: '\"Detailed\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:136:7: '\"Detailed\"'
                     {
                     match("\"Detailed\""); 
 
@@ -1283,14 +1283,14 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "NODE_TYPE"
     public final void mNODE_TYPE() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:142:3: ( 'Type' ( WS )? '=' ( WS )? ( '\"Attack_Category\"' | '\"Attack_Pattern\"' | '\"Metadata_Field\"' | '\"Node_Alias\"' ) )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:143:3: 'Type' ( WS )? '=' ( WS )? ( '\"Attack_Category\"' | '\"Attack_Pattern\"' | '\"Metadata_Field\"' | '\"Node_Alias\"' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:142:3: ( 'Type' ( WS )? '=' ( WS )? ( '\"Attack_Category\"' | '\"Attack_Pattern\"' | '\"Metadata_Field\"' | '\"Node_Alias\"' ) )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:143:3: 'Type' ( WS )? '=' ( WS )? ( '\"Attack_Category\"' | '\"Attack_Pattern\"' | '\"Metadata_Field\"' | '\"Node_Alias\"' )
             {
             match("Type"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:143:10: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:143:10: ( WS )?
             int alt31=2;
             int LA31_0 = input.LA(1);
 
@@ -1299,7 +1299,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt31) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:143:10: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:143:10: WS
                     {
                     mWS(); 
 
@@ -1312,7 +1312,7 @@ public class CapecParser16 extends Lexer {
 
             match('='); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:143:18: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:143:18: ( WS )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -1321,7 +1321,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt32) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:143:18: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:143:18: WS
                     {
                     mWS(); 
 
@@ -1332,7 +1332,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:144:3: ( '\"Attack_Category\"' | '\"Attack_Pattern\"' | '\"Metadata_Field\"' | '\"Node_Alias\"' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:144:3: ( '\"Attack_Category\"' | '\"Attack_Pattern\"' | '\"Metadata_Field\"' | '\"Node_Alias\"' )
             int alt33=4;
             int LA33_0 = input.LA(1);
 
@@ -1451,7 +1451,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt33) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:145:5: '\"Attack_Category\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:145:5: '\"Attack_Category\"'
                     {
                     match("\"Attack_Category\""); 
 
@@ -1460,7 +1460,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:146:7: '\"Attack_Pattern\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:146:7: '\"Attack_Pattern\"'
                     {
                     match("\"Attack_Pattern\""); 
 
@@ -1469,7 +1469,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:147:7: '\"Metadata_Field\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:147:7: '\"Metadata_Field\"'
                     {
                     match("\"Metadata_Field\""); 
 
@@ -1478,7 +1478,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:148:7: '\"Node_Alias\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:148:7: '\"Node_Alias\"'
                     {
                     match("\"Node_Alias\""); 
 
@@ -1505,14 +1505,14 @@ public class CapecParser16 extends Lexer {
         try {
             CommonToken value=null;
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:154:3: ( 'Name' ( WS )? '=' ( WS )? value= VALUE )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:155:3: 'Name' ( WS )? '=' ( WS )? value= VALUE
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:154:3: ( 'Name' ( WS )? '=' ( WS )? value= VALUE )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:155:3: 'Name' ( WS )? '=' ( WS )? value= VALUE
             {
             match("Name"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:155:10: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:155:10: ( WS )?
             int alt34=2;
             int LA34_0 = input.LA(1);
 
@@ -1521,7 +1521,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt34) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:155:10: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:155:10: WS
                     {
                     mWS(); 
 
@@ -1534,7 +1534,7 @@ public class CapecParser16 extends Lexer {
 
             match('='); 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:155:18: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:155:18: ( WS )?
             int alt35=2;
             int LA35_0 = input.LA(1);
 
@@ -1543,7 +1543,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt35) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:155:18: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:155:18: WS
                     {
                     mWS(); 
 
@@ -1576,14 +1576,14 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "COMMENT"
     public final void mCOMMENT() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:160:3: ( '<!--' ( options {greedy=false; } : . )* '-->' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:161:3: '<!--' ( options {greedy=false; } : . )* '-->'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:160:3: ( '<!--' ( options {greedy=false; } : . )* '-->' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:161:3: '<!--' ( options {greedy=false; } : . )* '-->'
             {
             match("<!--"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:161:10: ( options {greedy=false; } : . )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:161:10: ( options {greedy=false; } : . )*
             loop36:
             do {
                 int alt36=2;
@@ -1617,7 +1617,7 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt36) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:161:36: .
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:161:36: .
             	    {
             	    matchAny(); 
 
@@ -1647,10 +1647,10 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "NODE_DATA"
     public final void mNODE_DATA() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:166:3: ( ( WS )? '<Node_Relationship>' ( ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )? ) '</Node_Relationship>' ( WS )? )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:3: ( WS )? '<Node_Relationship>' ( ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )? ) '</Node_Relationship>' ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:166:3: ( ( WS )? '<Node_Relationship>' ( ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )? ) '</Node_Relationship>' ( WS )? )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:3: ( WS )? '<Node_Relationship>' ( ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )? ) '</Node_Relationship>' ( WS )?
             {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:3: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:3: ( WS )?
             int alt37=2;
             int LA37_0 = input.LA(1);
 
@@ -1659,7 +1659,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt37) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:3: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:3: WS
                     {
                     mWS(); 
 
@@ -1674,10 +1674,10 @@ public class CapecParser16 extends Lexer {
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:29: ( ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )? )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:30: ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:29: ( ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )? )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:30: ( WS )? RELATIONSHIP_TYPE_TAG ( WS )? RELATED_NODE_TAG ( WS )?
             {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:30: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:30: ( WS )?
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -1686,7 +1686,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt38) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:30: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:30: WS
                     {
                     mWS(); 
 
@@ -1700,7 +1700,7 @@ public class CapecParser16 extends Lexer {
             mRELATIONSHIP_TYPE_TAG(); 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:56: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:56: ( WS )?
             int alt39=2;
             int LA39_0 = input.LA(1);
 
@@ -1709,7 +1709,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt39) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:56: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:56: WS
                     {
                     mWS(); 
 
@@ -1723,7 +1723,7 @@ public class CapecParser16 extends Lexer {
             mRELATED_NODE_TAG(); 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:77: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:77: ( WS )?
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -1732,7 +1732,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt40) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:77: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:77: WS
                     {
                     mWS(); 
 
@@ -1750,7 +1750,7 @@ public class CapecParser16 extends Lexer {
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:105: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:105: ( WS )?
             int alt41=2;
             int LA41_0 = input.LA(1);
 
@@ -1759,7 +1759,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt41) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:167:105: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:167:105: WS
                     {
                     mWS(); 
 
@@ -1783,14 +1783,14 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "RELATIONSHIP_TYPE_TAG"
     public final void mRELATIONSHIP_TYPE_TAG() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:172:3: ( '<Relationship_Type>' ( WS )? ( 'Peer' | 'ResultantFrom' | 'ResultsIn' | 'CanAlsoBe' | 'ChildOf' | 'ParentOf' ) ( WS )? '</Relationship_Type>' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:172:5: '<Relationship_Type>' ( WS )? ( 'Peer' | 'ResultantFrom' | 'ResultsIn' | 'CanAlsoBe' | 'ChildOf' | 'ParentOf' ) ( WS )? '</Relationship_Type>'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:172:3: ( '<Relationship_Type>' ( WS )? ( 'Peer' | 'ResultantFrom' | 'ResultsIn' | 'CanAlsoBe' | 'ChildOf' | 'ParentOf' ) ( WS )? '</Relationship_Type>' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:172:5: '<Relationship_Type>' ( WS )? ( 'Peer' | 'ResultantFrom' | 'ResultsIn' | 'CanAlsoBe' | 'ChildOf' | 'ParentOf' ) ( WS )? '</Relationship_Type>'
             {
             match("<Relationship_Type>"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:172:27: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:172:27: ( WS )?
             int alt42=2;
             int LA42_0 = input.LA(1);
 
@@ -1799,7 +1799,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt42) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:172:27: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:172:27: WS
                     {
                     mWS(); 
 
@@ -1810,7 +1810,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:173:3: ( 'Peer' | 'ResultantFrom' | 'ResultsIn' | 'CanAlsoBe' | 'ChildOf' | 'ParentOf' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:173:3: ( 'Peer' | 'ResultantFrom' | 'ResultsIn' | 'CanAlsoBe' | 'ChildOf' | 'ParentOf' )
             int alt43=6;
             switch ( input.LA(1) ) {
             case 'P':
@@ -1935,7 +1935,7 @@ public class CapecParser16 extends Lexer {
 
             switch (alt43) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:173:5: 'Peer'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:173:5: 'Peer'
                     {
                     match("Peer"); 
 
@@ -1944,7 +1944,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:174:5: 'ResultantFrom'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:174:5: 'ResultantFrom'
                     {
                     match("ResultantFrom"); 
 
@@ -1953,7 +1953,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:175:5: 'ResultsIn'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:175:5: 'ResultsIn'
                     {
                     match("ResultsIn"); 
 
@@ -1962,7 +1962,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:176:5: 'CanAlsoBe'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:176:5: 'CanAlsoBe'
                     {
                     match("CanAlsoBe"); 
 
@@ -1971,7 +1971,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 5 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:177:5: 'ChildOf'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:177:5: 'ChildOf'
                     {
                     match("ChildOf"); 
 
@@ -1980,7 +1980,7 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:178:5: 'ParentOf'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:178:5: 'ParentOf'
                     {
                     match("ParentOf"); 
 
@@ -1992,7 +1992,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:179:5: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:179:5: ( WS )?
             int alt44=2;
             int LA44_0 = input.LA(1);
 
@@ -2001,7 +2001,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt44) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:179:5: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:179:5: WS
                     {
                     mWS(); 
 
@@ -2029,14 +2029,14 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "RELATED_NODE_TAG"
     public final void mRELATED_NODE_TAG() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:184:3: ( '<Related_Node>' ( WS )? NUMBER ( WS )? '</Related_Node>' )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:185:3: '<Related_Node>' ( WS )? NUMBER ( WS )? '</Related_Node>'
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:184:3: ( '<Related_Node>' ( WS )? NUMBER ( WS )? '</Related_Node>' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:185:3: '<Related_Node>' ( WS )? NUMBER ( WS )? '</Related_Node>'
             {
             match("<Related_Node>"); 
 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:185:20: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:185:20: ( WS )?
             int alt45=2;
             int LA45_0 = input.LA(1);
 
@@ -2045,7 +2045,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt45) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:185:20: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:185:20: WS
                     {
                     mWS(); 
 
@@ -2059,7 +2059,7 @@ public class CapecParser16 extends Lexer {
             mNUMBER(); 
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:185:31: ( WS )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:185:31: ( WS )?
             int alt46=2;
             int LA46_0 = input.LA(1);
 
@@ -2068,7 +2068,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt46) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:185:31: WS
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:185:31: WS
                     {
                     mWS(); 
 
@@ -2096,10 +2096,10 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "NUMBER"
     public final void mNUMBER() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:190:3: ( ( '-' | '+' )? ( '0' .. '9' )+ )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:191:3: ( '-' | '+' )? ( '0' .. '9' )+
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:190:3: ( ( '-' | '+' )? ( '0' .. '9' )+ )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:191:3: ( '-' | '+' )? ( '0' .. '9' )+
             {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:191:3: ( '-' | '+' )?
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:191:3: ( '-' | '+' )?
             int alt47=2;
             int LA47_0 = input.LA(1);
 
@@ -2108,7 +2108,7 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt47) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -2126,7 +2126,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:192:3: ( '0' .. '9' )+
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:192:3: ( '0' .. '9' )+
             int cnt48=0;
             loop48:
             do {
@@ -2140,7 +2140,7 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt48) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -2178,10 +2178,10 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "VALUE"
     public final void mVALUE() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:197:3: ( ( '\\\"' (~ '\\\"' )* '\\\"' | '\\'' (~ '\\'' )* '\\'' ) )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:198:3: ( '\\\"' (~ '\\\"' )* '\\\"' | '\\'' (~ '\\'' )* '\\'' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:197:3: ( ( '\\\"' (~ '\\\"' )* '\\\"' | '\\'' (~ '\\'' )* '\\'' ) )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:198:3: ( '\\\"' (~ '\\\"' )* '\\\"' | '\\'' (~ '\\'' )* '\\'' )
             {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:198:3: ( '\\\"' (~ '\\\"' )* '\\\"' | '\\'' (~ '\\'' )* '\\'' )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:198:3: ( '\\\"' (~ '\\\"' )* '\\\"' | '\\'' (~ '\\'' )* '\\'' )
             int alt51=2;
             int LA51_0 = input.LA(1);
 
@@ -2200,11 +2200,11 @@ public class CapecParser16 extends Lexer {
             }
             switch (alt51) {
                 case 1 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:199:5: '\\\"' (~ '\\\"' )* '\\\"'
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:199:5: '\\\"' (~ '\\\"' )* '\\\"'
                     {
                     match('\"'); 
 
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:199:10: (~ '\\\"' )*
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:199:10: (~ '\\\"' )*
                     loop49:
                     do {
                         int alt49=2;
@@ -2217,7 +2217,7 @@ public class CapecParser16 extends Lexer {
 
                         switch (alt49) {
                     	case 1 :
-                    	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:
+                    	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:
                     	    {
                     	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
@@ -2243,11 +2243,11 @@ public class CapecParser16 extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:200:7: '\\'' (~ '\\'' )* '\\''
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:200:7: '\\'' (~ '\\'' )* '\\''
                     {
                     match('\''); 
 
-                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:200:12: (~ '\\'' )*
+                    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:200:12: (~ '\\'' )*
                     loop50:
                     do {
                         int alt50=2;
@@ -2260,7 +2260,7 @@ public class CapecParser16 extends Lexer {
 
                         switch (alt50) {
                     	case 1 :
-                    	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:
+                    	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:
                     	    {
                     	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
@@ -2302,8 +2302,8 @@ public class CapecParser16 extends Lexer {
     // $ANTLR start "GENERIC_ID"
     public final void mGENERIC_ID() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:206:3: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | ':' ) ( options {greedy=true; } : 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '.' | '-' | '_' | ':' )* )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:207:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | ':' ) ( options {greedy=true; } : 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '.' | '-' | '_' | ':' )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:206:3: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | ':' ) ( options {greedy=true; } : 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '.' | '-' | '_' | ':' )* )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:207:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | ':' ) ( options {greedy=true; } : 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '.' | '-' | '_' | ':' )*
             {
             if ( input.LA(1)==':'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -2315,7 +2315,7 @@ public class CapecParser16 extends Lexer {
             }
 
 
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:213:3: ( options {greedy=true; } : 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '.' | '-' | '_' | ':' )*
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:213:3: ( options {greedy=true; } : 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '.' | '-' | '_' | ':' )*
             loop52:
             do {
                 int alt52=8;
@@ -2419,49 +2419,49 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt52) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:213:29: 'a' .. 'z'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:213:29: 'a' .. 'z'
             	    {
             	    matchRange('a','z'); 
 
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:214:7: 'A' .. 'Z'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:214:7: 'A' .. 'Z'
             	    {
             	    matchRange('A','Z'); 
 
             	    }
             	    break;
             	case 3 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:215:7: '0' .. '9'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:215:7: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
             	    }
             	    break;
             	case 4 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:216:7: '.'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:216:7: '.'
             	    {
             	    match('.'); 
 
             	    }
             	    break;
             	case 5 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:217:7: '-'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:217:7: '-'
             	    {
             	    match('-'); 
 
             	    }
             	    break;
             	case 6 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:218:7: '_'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:218:7: '_'
             	    {
             	    match('_'); 
 
             	    }
             	    break;
             	case 7 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:219:7: ':'
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:219:7: ':'
             	    {
             	    match(':'); 
 
@@ -2489,10 +2489,10 @@ public class CapecParser16 extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:224:3: ( ( '\\t' | ' ' | '\\r' | '\\n' | '\\u000C' )+ )
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:225:3: ( '\\t' | ' ' | '\\r' | '\\n' | '\\u000C' )+
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:224:3: ( ( '\\t' | ' ' | '\\r' | '\\n' | '\\u000C' )+ )
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:225:3: ( '\\t' | ' ' | '\\r' | '\\n' | '\\u000C' )+
             {
-            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:225:3: ( '\\t' | ' ' | '\\r' | '\\n' | '\\u000C' )+
+            // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:225:3: ( '\\t' | ' ' | '\\r' | '\\n' | '\\u000C' )+
             int cnt53=0;
             loop53:
             do {
@@ -2506,7 +2506,7 @@ public class CapecParser16 extends Lexer {
 
                 switch (alt53) {
             	case 1 :
-            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:
+            	    // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:
             	    {
             	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||(input.LA(1) >= '\f' && input.LA(1) <= '\r')||input.LA(1)==' ' ) {
             	        input.consume();
@@ -2547,7 +2547,7 @@ public class CapecParser16 extends Lexer {
     // $ANTLR end "WS"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:1:8: ( DOCUMENT | WS )
+        // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:1:8: ( DOCUMENT | WS )
         int alt54=2;
         int LA54_0 = input.LA(1);
 
@@ -2566,7 +2566,7 @@ public class CapecParser16 extends Lexer {
         }
         switch (alt54) {
             case 1 :
-                // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:1:10: DOCUMENT
+                // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:1:10: DOCUMENT
                 {
                 mDOCUMENT(); 
 
@@ -2574,7 +2574,7 @@ public class CapecParser16 extends Lexer {
                 }
                 break;
             case 2 :
-                // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\AttackOntology\\src\\parser\\CapecParser16.g:1:19: WS
+                // C:\\Documents and Settings\\user\\Desktop\\eclipse\\workspace\\KnowledgeConvert\\src\\parser\\CapecParser16.g:1:19: WS
                 {
                 mWS(); 
 
